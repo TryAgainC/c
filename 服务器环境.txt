@@ -1,0 +1,8 @@
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+npm install randomstring
+
+
+
+
+node nigga.js GET https://example.com proxies.txt 60 10 5
